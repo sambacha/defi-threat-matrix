@@ -1,0 +1,31 @@
+{
+  "name": "defi-threat-matrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/defi-threat-matrix.git"
+  },
+  "keywords": [
+    "defi",
+    "threat matrix",
+    "ethereum",
+    "solidity"
+  ],
+  "author": "sam bacha <sambacha@gmail.com>",
+  "license": "GPL-2-Only",
+  "bugs": {
+    "url": "https://github.com/sambacha/defi-threat-matrix/issues"
+  },
+  "homepage": "https://github.com/sambacha/defi-threat-matrix#readme",
+  "devDependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}

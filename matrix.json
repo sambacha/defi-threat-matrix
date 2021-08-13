@@ -1,0 +1,219 @@
+[
+  {
+    "Market Attacks": "Front-Running",
+    "Economic Attack": "Front-Running",
+    "Off-Chain": "Price Feed",
+    "On-Chain": "Timestamp Dependence",
+    "Solidity": "Integer Overflow and Underflow"
+  },
+  {
+    "Market Attacks": "Coordinated Attack",
+    "Economic Attack": "Insufficient gas griefing",
+    "Off-Chain": "Quote Stuffing",
+    "On-Chain": "Admin Key",
+    "Solidity": "DoS with (Unexpected) revert"
+  },
+  {
+    "Market Attacks": "Liquidity Pocket",
+    "Economic Attack": "Token Inflation",
+    "Off-Chain": "Spoofing",
+    "On-Chain": "Timelock",
+    "Solidity": "DoS with Block Gas Limit"
+  },
+  {
+    "Market Attacks": "Quote Stuffing",
+    "Economic Attack": "Circulating Supply Attack",
+    "Off-Chain": "Credential Access",
+    "On-Chain": "Lateral Movements",
+    "Solidity": "Arithmetic Over/Under Flows"
+  },
+  {
+    "Market Attacks": "Wash Trading",
+    "Economic Attack": "Gas Griefing (DoS)",
+    "Off-Chain": "Reentrancy",
+    "On-Chain": "Multi-Sig Keys",
+    "Solidity": "Forcibly Sending Ether to a Contract"
+  },
+  {
+    "Market Attacks": "Ramping The Market",
+    "Economic Attack": "Network Congestion (uDoS)",
+    "Off-Chain": "Privilage Esclation",
+    "On-Chain": "Miner Cartel",
+    "Solidity": "Delegatecall"
+  },
+  {
+    "Market Attacks": "Cornering The Market",
+    "Economic Attack": "Liquidity Squeeze",
+    "Off-Chain": "Credential Access",
+    "On-Chain": "Finality",
+    "Solidity": "Entropy Illusion"
+  },
+  {
+    "Market Attacks": "Churning",
+    "Economic Attack": "Smurfing",
+    "Off-Chain": "Encryption Protections",
+    "On-Chain": "Honeypot",
+    "Solidity": "Short Address/Parameter Attack"
+  },
+  {
+    "Market Attacks": "Flash Loans",
+    "Economic Attack": "Like Asset Price Divergance",
+    "Off-Chain": "Phishing",
+    "On-Chain": "Red Queen",
+    "Solidity": "Uninitialised Storage Pointers"
+  },
+  {
+    "Market Attacks": "Aggregated Transactions",
+    "Economic Attack": "Price Induced Oracle Volatility",
+    "Off-Chain": "Unicode Exploits",
+    "On-Chain": "Sole block synchronization",
+    "Solidity": "Floating Points and Numerical Precision"
+  },
+  {
+    "Market Attacks": "Bulge Bracket Transactions",
+    "Economic Attack": "Stalking Horse",
+    "Off-Chain": "API",
+    "On-Chain": "Transaction Pool",
+    "Solidity": "Right-To-Left-Override control character (U+202E)"
+  },
+  {
+    "Market Attacks": "Layering",
+    "Economic Attack": "Blockchain Transaction Based",
+    "Off-Chain": "DNS Attacks",
+    "On-Chain": "",
+    "Solidity": "Delegatecall to Untrusted Callee"
+  },
+  {
+    "Market Attacks": "Spoofing",
+    "Economic Attack": "Governance Attack",
+    "Off-Chain": "Transaction Pool",
+    "On-Chain": "",
+    "Solidity": "Requirement Violation"
+  },
+  {
+    "Market Attacks": "Order Book",
+    "Economic Attack": "Interlocking Directorate",
+    "Off-Chain": "Checksum Address",
+    "On-Chain": "",
+    "Solidity": "Shadowing State Variables"
+  },
+  {
+    "Market Attacks": "Market Index Calculation Attack",
+    "Economic Attack": "Governance Cartels",
+    "Off-Chain": "Siphon Funds",
+    "On-Chain": "",
+    "Solidity": "Transaction Order Dependence"
+  },
+  {
+    "Market Attacks": "Flash Crash",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": "Assert Violation"
+  },
+  {
+    "Market Attacks": "Repo",
+    "Economic Attack": "",
+    "Off-Chain": "Synthetic Mint Spread",
+    "On-Chain": "",
+    "Solidity": "Uninitialized Storage Pointer"
+  },
+  {
+    "Market Attacks": "Excessive Leverage",
+    "Economic Attack": "",
+    "Off-Chain": "Syscall Exploit",
+    "On-Chain": "",
+    "Solidity": "Unprotected Ether Withdrawal"
+  },
+  {
+    "Market Attacks": "Breaking the \"Buck\"",
+    "Economic Attack": "",
+    "Off-Chain": "Container Priv. Esclation",
+    "On-Chain": "",
+    "Solidity": "Floating Pragma"
+  },
+  {
+    "Market Attacks": "\"Fake\" News",
+    "Economic Attack": "",
+    "Off-Chain": "Keyctl missuse (syscall)",
+    "On-Chain": "",
+    "Solidity": "Outdated Compiler Version"
+  },
+  {
+    "Market Attacks": "Nested Bot",
+    "Economic Attack": "",
+    "Off-Chain": "Unlimited Permissions on Token Approval",
+    "On-Chain": "",
+    "Solidity": "Function Default Visibility"
+  },
+  {
+    "Market Attacks": "Audience of Bots",
+    "Economic Attack": "",
+    "Off-Chain": "Influencers'",
+    "On-Chain": "",
+    "Solidity": "msg.sender"
+  },
+  {
+    "Market Attacks": "Arb. Exploit",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  },
+  {
+    "Market Attacks": "Slippage Exploit",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  },
+  {
+    "Market Attacks": "Safety Check Exploits",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  },
+  {
+    "Market Attacks": "Circulating Supply Dump",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  },
+  {
+    "Market Attacks": "Governance Cartel",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  },
+  {
+    "Market Attacks": "Flash \"Straddle\" ",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  },
+  {
+    "Market Attacks": "Structuring",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  },
+  {
+    "Market Attacks": "",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  },
+  {
+    "Market Attacks": "Back-Running",
+    "Economic Attack": "",
+    "Off-Chain": "",
+    "On-Chain": "",
+    "Solidity": ""
+  }
+]
