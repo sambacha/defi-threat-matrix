@@ -1,22 +1,30 @@
+:title:
+
 = Axioms and Primitives for financial instruments 
 
-> Design Principles
 
-== Primitives
+[IMPORTANT]
+.active draft
+====
+This document is subject to revisions
+====
+
+
+== Design Principles and Primitives
 
 Defined ordered list 
 
-`PrimitiveEvent`
-`ExercisePrimitive`
-`AllocationPrimitive`
-`ContractFormationPrimitive`
-`ExecutionPrimitive`
-`InceptionPrimitive`
-`ObservationPrimitive`
-`QuantityChangePrimitive`
-`ResetPrimitive`
-`TermsChangePrimitive`
-`TransferPrimitive`
+- `PrimitiveEvent` 
+- `ExercisePrimitive`
+- `AllocationPrimitive`
+- `ContractFormationPrimitive`
+- `ExecutionPrimitive`
+- `InceptionPrimitive`
+- `ObservationPrimitive`
+- `QuantityChangePrimitive`
+- `ResetPrimitive`
+- `TermsChangePrimitive`
+- `TransferPrimitive`
 
 
 === ExecutionPrimitive
