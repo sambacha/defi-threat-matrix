@@ -1,0 +1,15 @@
+Styles
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table { @apply bg-white text-black table-auto border-separate w-full shadow-none }
+.table th { @apply bg-blue-700 text-white p-5 }`
+.table th:nth-child(4) { @apply w-auto } 
+.table th:nth-child(5) { @apply w-auto } 
+.table th:nth-child(6) { @apply w-auto } 
+.table th:nth-child(7) { @apply w-auto } 
+.table tr:nth-child(odd) { @apply bg-blue-100 text-blue-900 }
+.table tr:nth-child(even) { @apply bg-blue-200 text-blue-900 }
+.table td { @apply p-3 }

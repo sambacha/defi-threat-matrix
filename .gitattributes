@@ -1,0 +1,21 @@
+*.html   text diff=html
+*.xml    text
+*.xsd    text
+*.xsl    text
+*.yml    text
+
+*.png diff=exif
+*.jpg diff=exif
+*.svg diff=exif
+
+*.gpg filter=gpg diff=gpg
+*.asc filter=gpg diff=gpg
+# git archive -- ignore files when creating an archive out of repository
+test/ export-ignore
+/.github            export-ignore
+/.editorconfig      export-ignore
+/.gitattributes     export-ignore
+/.gitignore         export-ignore
+/.scrutinizer.yml   export-ignore
+/phpunit.xml.dist   export-ignore
+/docs               export-ignore
